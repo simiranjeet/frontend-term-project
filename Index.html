@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Crypto Tracker</h1>
+  </header>
+
+  <main>
+    <!-- Cryptocurrency Listing -->
+    <section id="crypto-list">
+      <h2>Popular Cryptocurrencies</h2>
+      <ul id="crypto-data"></ul>
+    </section>
+
+    <!-- Comparison Section -->
+    <section id="comparison-section">
+      <h2>Compare Cryptocurrencies</h2>
+      <div id="comparison-container"></div>
+    </section>
+
+    <!-- User Preferences -->
+    <section id="user-preferences">
+      <h2>User Preferences</h2>
+      <form id="preferences-form">
+        <label>
+          Sort by:
+          <select id="sort-options">
+            <option value="market_cap">Market Cap</option>
+            <option value="price">Price</option>
+          </select>
+        </label>
+        <button type="submit">Save Preferences</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Developed by Simranjeet Kaur</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
